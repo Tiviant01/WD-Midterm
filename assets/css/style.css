@@ -1,0 +1,44 @@
+body{
+    background-image: url(/assets/img/head_Bread.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 215vh;
+    height: 70vh;
+
+}
+
+header button{
+    width: 10vh;
+    height: 10vh;
+    opacity: 50%;
+    border: none;
+    background-color: none;
+    border-radius: 10px;
+}
+
+header h1{
+    color: black;
+}
+
+section .hero{
+    display: flex;
+    align-items: center;
+    width: 215vh;
+    height: 70vh;
+    background-color: black;
+    margin-right: 10px;
+}
+
+.container .hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
