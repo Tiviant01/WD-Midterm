@@ -33,10 +33,20 @@ section .hero{
     justify-content: center;
     width: 215vh;
     height: 500vh;
-    background-color: black;
+
     margin-right: 10px;
 }
 
+section .hero .meme{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    width: 215vh;
+    height: 500vh;
+    background-color: black;
+    margin-right: 10px;
+}
 
 section .box{
     width: 600px;
@@ -82,8 +92,6 @@ section .box{
     font-size: 20px;
 }
 
-h2{
-    color: aliceblue;
-}
+
 
 
