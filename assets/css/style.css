@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: center;
     width: 215vh;
-    height: 70vh;
+    height: 60vh;
 
 }
 
@@ -29,27 +29,61 @@ header h1{
 
 section .hero{
     display: flex;
-    align-items: center;
+    align-items: start;
+    justify-content: center;
     width: 215vh;
-    height: 70vh;
+    height: 500vh;
     background-color: black;
     margin-right: 10px;
 }
 
-.container .hero{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
-}
-.container .box{
-    width: 300px;
-    height: 220px;
+section .box{
+    width: 600px;
+    height: 300px;
     border-radius: 15px;
     text-align: center;
+    align-items: center;
+    
 }
 
 #box1{
     background-color: aliceblue;
+    justify-content: center;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.box h1{
+    align-items: center;
+    font-size: 50px;
+}
+
+.box h2{
+    color: black;
+}
+
+.box button{
+    width: 25vh;
+    height: 10vh;
+    border-color: black;
+
+}
+#button1{
+    background-color: aliceblue;
+    margin-right: 5vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+#button2{
+    background-color: black;
+    color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+h2{
+    color: aliceblue;
+}
+
+
