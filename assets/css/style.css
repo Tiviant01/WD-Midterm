@@ -1,5 +1,5 @@
 body{
-    background-image: url(assets/img/head_Bread.JPG);
+    background-image: url(/assets/img/head_Bread.JPG);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -43,7 +43,7 @@ section .hero .meme{
     flex-direction: row;
     justify-content: center;
     width: 215vh;
-    height: 500vh;
+    height: 80vh;
     background-color: black;
     margin-right: 10px;
 }
